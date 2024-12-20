@@ -1,0 +1,17 @@
+.dancer
+{
+   
+    margin-left: 50px;
+    margin-top: 600px; 
+    animation: dancermovenew 5s infinite ease-in 3s alternate;  
+}
+.dancer-wraper {
+
+     position: relative;
+    height: 200px;
+}
+
+@keyframes dancermovenew {
+    from {transform: translateX(0px);}
+    to {transform: translateX(1200px);}
+}
